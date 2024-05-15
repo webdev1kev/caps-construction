@@ -8,8 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-
+      colors: {
+        "light-gray": "rgb(234, 233, 230)",
+        "black-alt": "rgb(36, 33, 33)",
+        tan: "rgb(240, 239, 225)",
       },
     },
   },

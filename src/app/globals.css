@@ -3,21 +3,26 @@
 @tailwind utilities;
 
 :root {
-
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
-
 }
 
 body {
+}
 
+h1 {
+  font-size: 4rem;
+  line-height: 4.25rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 @layer utilities {
-
 }

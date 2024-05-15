@@ -3,7 +3,7 @@ import { Caudex } from "next/font/google";
 import Navigation from "./navigation";
 import "./globals.css";
 
-const caudex = Caudex({weight: ["400", "700"], subsets: ["greek"]});
+const caudex = Caudex({ weight: ["400", "700"], subsets: ["greek"] });
 
 export const metadata: Metadata = {
   title: "Home",
@@ -18,8 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={caudex.className}>
-        <Navigation/>
-        {children}</body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
