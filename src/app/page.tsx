@@ -53,19 +53,19 @@ export default function Home() {
         <div className="project-cards grid grid-cols-3 gap-x-16">
           <PortfolioCard title="Children's Center">
             Despite some unforeseen difficulties, we were able to complete this
-            project on time and within budget. It's a testament to our
+            project on time and within budget. It&apos;s a testament to our
             dedication to delivering a quality product, no matter what
             complications arise, in order to ensure full client satisfaction.
           </PortfolioCard>
           <PortfolioCard title="Children's Center">
             Despite some unforeseen difficulties, we were able to complete this
-            project on time and within budget. It's a testament to our
+            project on time and within budget. It&apos;s a testament to our
             dedication to delivering a quality product, no matter what
             complications arise, in order to ensure full client satisfaction.
           </PortfolioCard>
           <PortfolioCard title="Children's Center">
             Despite some unforeseen difficulties, we were able to complete this
-            project on time and within budget. It's a testament to our
+            project on time and within budget. It&apos;s a testament to our
             dedication to delivering a quality product, no matter what
             complications arise, in order to ensure full client satisfaction.
           </PortfolioCard>
