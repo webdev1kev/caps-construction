@@ -39,7 +39,7 @@ export default function Home() {
               experienced professionals can handle everything from small repairs
               to large-scale projects. We work tirelessly to ensure our clients
               are completely satisfied with our work. Contact us today for a
-              consultation.
+              consultation
             </p>
             <ButtonLink />
           </div>
