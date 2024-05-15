@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Caudex } from "next/font/google";
-import Navigation from "./navigation";
+import Navigation from "./Navigation";
 import "./globals.css";
 
 const caudex = Caudex({ weight: ["400", "700"], subsets: ["greek"] });
