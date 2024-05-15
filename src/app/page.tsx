@@ -1,4 +1,11 @@
 
 export default function Home() {
-  return;
+  return <main>
+    <section>
+      <div className="image-frame">
+        <img src="/header-image.webp"/>
+      </div>
+
+    </section>
+  </main>
 }
