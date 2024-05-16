@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-export default function Navigation() {
+export default function NavigationBar() {
   return (
     <nav className="flex justify-between px-40 py-4 border-b border-black">
       <div className="logo-frame">

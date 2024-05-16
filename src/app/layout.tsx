@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Caudex } from "next/font/google";
-import Navigation from "./Navigation";
+import NavigationBar from "./NavigationBar";
 import "./globals.css";
 import Footer from "./Footer";
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={caudex.className}>
-        <Navigation />
+        <NavigationBar />
         {children}
         <Footer />
       </body>
