@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { Caudex } from "next/font/google";
-import Navigation from "./navigation";
+import Navigation from "./Navigation";
 import "./globals.css";
+import Footer from "./Footer";
 
 const caudex = Caudex({ weight: ["400", "700"], subsets: ["greek"] });
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: {
+    template: "%s | Caps Construction",
+    default: "Caps Construction",
+  },
   description: "",
 };
 
@@ -20,6 +24,7 @@ export default function RootLayout({
       <body className={caudex.className}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

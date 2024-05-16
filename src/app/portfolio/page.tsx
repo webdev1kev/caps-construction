@@ -1,3 +1,8 @@
+import PortfolioPage from "./PortfolioPage";
+export const metadata = {
+  title: "Portfolio",
+};
+
 export default function Portfolio() {
-    return <div>Portfolio Page</div>
+  return <PortfolioPage />;
 }
